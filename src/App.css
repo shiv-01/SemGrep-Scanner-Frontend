@@ -1,0 +1,95 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+/* Container */
+.container {
+  max-width: 800px;
+  margin: 20px auto;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Title */
+.title {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+/* Dropdown */
+.dropdown-container {
+  margin-bottom: 20px;
+}
+
+label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.dropdown {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  background: #fff;
+}
+
+/* Table */
+.table-container {
+  margin-top: 20px;
+}
+
+.table-title {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.no-issues {
+  text-align: center;
+  color: gray;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.issues-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+}
+
+.issues-table th,
+.issues-table td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+.issues-table th {
+  background: #007bff;
+  color: white;
+}
+
+.issues-table tr:nth-child(even) {
+  background: #f9f9f9;
+}
+
+.issues-table a {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.issues-table a:hover {
+  text-decoration: underline;
+}
